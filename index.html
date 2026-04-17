@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio website showcasing work experience and side projects."
+    />
+    <title>Your Name | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="brand" href="#top">Your Name</a>
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Software Engineer</p>
+            <h1>Building reliable products with thoughtful engineering.</h1>
+            <p class="lead">
+              I design and ship scalable software that solves real business
+              problems. This site highlights my experience, selected projects,
+              and the impact of my work.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="Quick profile">
+            <h2>Quick Profile</h2>
+            <ul>
+              <li>Based in City, Country</li>
+              <li>Open to new opportunities</li>
+              <li>5+ years in web development</li>
+              <li>Focused on product and quality</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Career</p>
+            <h2>Work Experience</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <header>
+                <h3>Senior Software Engineer · Company Name</h3>
+                <p>2022 - Present</p>
+              </header>
+              <ul>
+                <li>Led development of internal platform used by 50+ teams.</li>
+                <li>Reduced page load time by 35% through performance work.</li>
+                <li>Mentored engineers and improved code review standards.</li>
+              </ul>
+            </article>
+            <article class="timeline-item">
+              <header>
+                <h3>Software Engineer · Previous Company</h3>
+                <p>2019 - 2022</p>
+              </header>
+              <ul>
+                <li>
+                  Built core APIs and frontend features for customer dashboard.
+                </li>
+                <li>Improved release reliability with automated testing.</li>
+                <li>
+                  Partnered with design and product to deliver key initiatives.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Side Projects</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>Project One</h3>
+              <p>
+                A full-stack app that helps users track habits with analytics
+                and reminders.
+              </p>
+              <p class="stack">React · Node.js · PostgreSQL</p>
+              <a href="#" aria-label="View Project One">View project</a>
+            </article>
+            <article class="project-card">
+              <h3>Project Two</h3>
+              <p>
+                An AI-assisted writing tool that improves tone and clarity for
+                technical docs.
+              </p>
+              <p class="stack">TypeScript · Next.js · OpenAI API</p>
+              <a href="#" aria-label="View Project Two">View project</a>
+            </article>
+            <article class="project-card">
+              <h3>Project Three</h3>
+              <p>
+                A mobile-first event planner with RSVP workflows and team
+                collaboration.
+              </p>
+              <p class="stack">Vue · Firebase · Cloud Functions</p>
+              <a href="#" aria-label="View Project Three">View project</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Capabilities</p>
+            <h2>Skills</h2>
+          </div>
+          <ul class="skills-list">
+            <li>JavaScript / TypeScript</li>
+            <li>React / Next.js</li>
+            <li>Node.js / REST APIs</li>
+            <li>SQL / PostgreSQL</li>
+            <li>AWS / Cloud Infrastructure</li>
+            <li>Testing / CI-CD</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container contact">
+          <div>
+            <p class="eyebrow">Connect</p>
+            <h2>Let’s work together</h2>
+            <p>
+              I am currently open to software engineering opportunities.
+              Feel free to reach out.
+            </p>
+          </div>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+            <li>LinkedIn: <a href="#">linkedin.com/in/yourname</a></li>
+            <li>GitHub: <a href="#">github.com/yourname</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
